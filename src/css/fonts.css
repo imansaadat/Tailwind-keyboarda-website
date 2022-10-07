@@ -1,0 +1,63 @@
+
+/*
+* Iran Sans Fonts
+* Weight => Regular
+*/
+@font-face {
+  font-family: Iran Sans;
+  font-weight: 300;
+  src: url("/assets/fonts/IRANSansWeb_UltraLight.woff") format("woff");
+}
+
+@font-face {
+  font-family: Iran Sans;
+  font-weight: 400;
+  src: url("/assets/fonts/IRANSansWeb.woff") format("woff");
+}
+
+/*
+* Iran Sans Fonts
+* Weight => Normal
+*/
+@font-face {
+  font-family: Iran Sans;
+  font-weight: 500;
+  src: url("/assets/fonts/IRANSansWeb_Medium.woff") format("woff");
+}
+
+/*
+* Iran Sans Fonts
+* Weight => Bold
+*/
+@font-face {
+  font-family: Iran Sans;
+  font-weight: 700;
+  src: url("/assets/fonts/IRANSansWeb_Bold.woff") format("woff");
+}
+
+/*
+* Iran Sans Fonts
+* Mode => Numeric
+* Weight => Regular
+*/
+@font-face {
+  font-family: Iran Sans Numeric;
+  font-weight: 300;
+  src: url("/assets/fonts/IRANSansWeb(FaNum)_UltraLight.woff") format("woff");
+}
+
+@font-face {
+  font-family: Iran Sans Numeric;
+  font-weight: 400;
+  src: url("/assets/fonts/IRANSansWeb(FaNum).woff") format("woff");
+}
+
+/*
+* Iran Sans Fonts
+* Mode => Numeric
+*/
+@font-face {
+  font-family: Iran Sans Numeric;
+  font-weight: 500;
+  src: url("/assets/fonts/IRANSansWeb(FaNum)_Medium.woff") format("woff");
+}

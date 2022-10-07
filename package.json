@@ -1,0 +1,16 @@
+{
+  "name": "tailwind-keyboarda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/css/input.css -o ./public/build/main.css --watch",
+    "pro": "npx tailwindcss -i ./src/css/input.css -o ./public/build/main.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}

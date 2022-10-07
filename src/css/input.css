@@ -1,0 +1,63 @@
+@import url("/fonts.css");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply overflow-x-hidden;
+  }
+  body {
+    @apply overflow-x-hidden before:content-[''] before:block before:h-20;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-block py-3 px-8 bg-gradient-to-r from-blue via-darkBlue to-lightBlue text-light text-base rounded-[26px] duration-300 cursor-pointer border-none hover:bg-hover hover:shadow-xl;
+  }
+}
+
+/* circle progress bar */
+#per-95 {
+  background-image: conic-gradient(#3dc8e9 95%, #dddddd 0);
+}
+
+#per-85 {
+  background-image: conic-gradient(#3dc8e9 85%, #dddddd 0);
+}
+
+#per-90 {
+  background-image: conic-gradient(#3dc8e9 90%, #dddddd 0);
+}
+
+#per-75 {
+  background-image: conic-gradient(#3dc8e9 75%, #dddddd 0);
+}
+
+#per-70 {
+  background-image: conic-gradient(#3dc8e9 70%, #dddddd 0);
+}
+
+
+
+#reviews .swiper-slide {
+  padding: 0;
+  transition: 0.4s;
+  opacity: 0.4;
+  transform: scale(0.8);  
+}
+
+#reviews .swiper-slide-active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* custom swiper pagination */
+.swiper .swiper-pagination{
+  bottom: -6px;
+}
+
+.swiper .swiper-pagination-bullet{
+  background-color: #324b6b;
+}
